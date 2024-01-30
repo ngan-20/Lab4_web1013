@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  .footer {
+    display: flex;
+    gap: 290px;
+  }
+  .show {
+    color: var(--text-2495057, #485057);
+    font-size: 24px;
+    line-height: 50px;
+    display: flex;
+    width: 589px;
+    height: 69px;
+  }
+  .check {
+    display: flex;
+    width: 250px;
+    height: 69px;
+    font-size: 24px;
+    line-height: 100px;
+  }
+  .image {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    width: 206px;
+    height: 49px;
+  }
+  .checkbox {
+    width: 40px;
+    height: 30px;
+    padding-top: 11px;
+    font-size: 24px;
+  }
+  .choice {
+    color: var(--text-2495057, #495057);
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    width: 589px;
+    height: 69px;
+  }
+  .sort-by {
+    width: 147px;
+    height: 40px;
+    color: var(--text-2495057, #495057);
+    font-size: 21px;
+    line-height: 36px;
+    display: flex;
+    border: none;
+}
+label {
+  cursor: default;
+}
+option {
+  font-weight: normal;
+  display: block;
+  min-height: 1.2em;
+  white-space: nowrap;
+}
+  body {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .wrapper {
+    width: 390px;
+    height: 551px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .product-img {
+    width: 390px;
+    height: 333px;
+  }
+  
+  .product-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a191f;
+  }
+  
+  .avatar-name {
+    font-size: 20px;
+    font-weight: 400;
+    color: #1a191f;
+  }
+  
+  .price {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+  }
+  
+  .product-content {
+    padding: 30px 27px 35px 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .full-name {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+  }
+  
+  .product-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px 0;
+  }
+  
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  
+  .product-image {
+    /* Cha  - relative*/
+    position: relative;
+  }
+  
+  .heart {
+    /* Con - absolute */
+    /* top - right - bottom - left */
+    /* z-index: thay đổi vị trí đè lên */
+    position: absolute;
+    right: 22px;
+    top: 16px;
+  }
